@@ -1,0 +1,3 @@
+QMainWindow{
+    image: url(:/images/bulestar.png);
+}

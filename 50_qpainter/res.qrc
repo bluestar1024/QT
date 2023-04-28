@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/牛郎织女.png</file>
+    </qresource>
+</RCC>
