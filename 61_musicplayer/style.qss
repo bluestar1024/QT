@@ -1,0 +1,96 @@
+QWidget{
+    background-color: #282828;
+}
+QListWidget{
+    color: white;
+    border: none;
+}
+QListWidget::item{
+    background: transparent;
+}
+QListWidget::item:active{
+    background: transparent;
+}
+QListWidget::item:selected{
+    background: transparent;
+    color: #00CED1;
+}
+QListWidget::item:hover{
+    background: transparent;
+    color: #00CED1;
+}
+QPushButton#btn_previous{
+    image: url(:/images/btn_previous1.png);
+    border: none;
+}
+QPushButton#btn_previous:hover{
+    image: url(:/images/btn_previous2.png);
+}
+QPushButton#btn_play{
+    image: url(:/images/btn_play1.png);
+    border: none;
+}
+QPushButton#btn_play:hover{
+    image: url(:/images/btn_play2.png);
+}
+QPushButton#btn_play:checked{
+    image: url(:/images/btn_pause1.png);
+    border: none;
+}
+QPushButton#btn_play:checked:hover{
+    image: url(:/images/btn_pause2.png);
+}
+QPushButton#btn_next{
+    image: url(:/images/btn_next1.png);
+    border: none;
+}
+QPushButton#btn_next:hover{
+    image: url(:/images/btn_next2.png);
+}
+QPushButton#btn_favorite{
+    image: url(:/images/btn_favorite_no.png);
+    border: none;
+}
+QPushButton#btn_favorite:checked{
+    image: url(:/images/btn_favorite_yes.png);
+}
+QPushButton#btn_playMode{
+    image: url(:/images/btn_listcircle1.png);
+    border: none;
+}
+QPushButton#btn_playMode:hover{
+    image: url(:/images/btn_listcircle2.png);
+}
+QPushButton#btn_menu{
+    image: url(:/images/btn_menu1.png);
+    border: none;
+}
+QPushButton#btn_menu:hover{
+    image: url(:/images/btn_menu2.png);
+}
+QPushButton#btn_volume{
+    image: url(:/images/btn_volume1.png);
+    border: none;
+}
+QPushButton#btn_volume:hover{
+    image: url(:/images/btn_volume2.png);
+}
+QLabel#label0{
+    color: white;
+}
+QLabel#icon{
+    image: url(:/images/cd.png);
+    border: none;
+}
+QLabel#label2{
+    color: white;
+}
+QLabel#label3{
+    color: white;
+}
+QSlider::handle{
+    image: url(:/images/handle.png);
+}
+QSlider::sub-page{
+    border-image: url(:/images/sub-page.png);
+}
