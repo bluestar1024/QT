@@ -1,0 +1,104 @@
+QWidget{
+    border-image: url(:/images/bg.png);
+}
+QLabel{
+    font-size: 22px;
+    color: white;
+    border-image: none;
+}
+QWidget#hWidget1{
+    border-image: none;
+    background: transparent;
+}
+QWidget#vWidget1{
+    border-image: url(:/images/mask.png);
+    background: #24252a;
+}
+QWidget#vWidget0{
+    border-image: none;
+    border: none;
+}
+QListWidget#listWidget{
+    font-size: 20px;
+    color: white;
+    background: #20ffffff;
+    border-image: none;
+    border: none;
+}
+QListWidget#listWidget::item{
+    background: transparent;
+    height: 40;
+}
+QListWidget#listWidget::item:active{
+    background: transparent;
+}
+QListWidget#listWidget::item:selected{
+    background: transparent;
+    color: #00CED1;
+}
+QListWidget#listWidget::item:hover{
+    background: transparent;
+    color: #00CED1;
+}
+QSlider#progressSlider{
+    border-image: none;
+    background: transparent;
+}
+QSlider#progressSlider::handle{
+    border-image: url(:/icons/handle.png);
+}
+QSlider#progressSlider::add-page{
+    border-image: url(:/images/add_page.png);
+}
+QSlider#volumeSlider{
+    border-image: none;
+    background: transparent;
+}
+QSlider#volumeSlider::handle{
+    border-image: url(:/icons/handle.png);
+}
+QSlider#volumeSlider::add-page{
+    border-image: url(:/images/add_page.png);
+}
+QPushButton#btn_play{
+    border-image: url(:/icons/btn_play1.png);
+}
+QPushButton#btn_play:hover{
+    border-image: url(:/icons/btn_play2.png);
+}
+QPushButton#btn_play:checked{
+    border-image: url(:/icons/btn_pause1.png);
+}
+QPushButton#btn_play:checked:hover{
+    border-image: url(:/icons/btn_pause2.png);
+}
+QPushButton#btn_next{
+    border-image: url(:/icons/btn_next1.png);
+}
+QPushButton#btn_next:hover{
+    border-image: url(:/icons/btn_next2.png);
+}
+QPushButton#btn_volume_down{
+    border-image: url(:/icons/btn_volumedown1.png);
+}
+QPushButton#btn_volume_down:hover{
+    border-image: url(:/icons/btn_volumedown2.png);
+}
+QPushButton#btn_volume_up{
+    border-image: url(:/icons/btn_volumeup1.png);
+}
+QPushButton#btn_volume_up:hover{
+    border-image: url(:/icons/btn_volumeup2.png);
+}
+QPushButton#btn_full_screen{
+    border-image: url(:/icons/btn_fullscreen1.png);
+}
+QPushButton#btn_full_screen:hover{
+    border-image: url(:/icons/btn_fullscreen2.png);
+}
+QPushButton#btn_half_screen{
+    border-image: url(:/icons/btn_screen1.png);
+}
+QPushButton#btn_half_screen:hover{
+    border-image: url(:/icons/btn_screen2.png);
+}
