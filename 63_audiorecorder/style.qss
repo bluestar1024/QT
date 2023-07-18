@@ -1,0 +1,84 @@
+QWidget{
+    background: #c0c0c0;
+}
+QListWidget{
+    border: none;
+    color: black;
+    font-size: 25px;
+    icon-size: 40px;
+}
+QListWidget:item{
+    background: transparent;
+    height: 60px;
+}
+QListWidget:item:active{
+    background: transparent;
+    border: none;
+    border: none;
+}
+QListWidget:item:selected{
+    color: #ee2222;
+    background: transparent;
+    border: none;
+}
+QListWidget:item:hover{
+    color: #ee2222;
+    background: transparent;
+    border: none;
+}
+QWidget#hWidget0{
+    background: #cccccc;
+}
+QPushButton#btn_record{
+    border-image: url(:/icons/recorder_stop1.png);
+    background: transparent;
+}
+QPushButton#btn_record:hover{
+    border-image: url(:/icons/recorder_stop2.png);
+}
+QPushButton#btn_record::checked{
+    border-image: url(:/icons/recorder_start1.png);
+}
+QPushButton#btn_record::checked:hover{
+    border-image: url(:/icons/recorder_start2.png);
+}
+QPushButton#btn_previous{
+    border-image: url(:/icons/btn_previous1.png);
+    background: transparent;
+}
+QPushButton#btn_previous:hover{
+    border-image: url(:/icons/btn_previous2.png);
+}
+QPushButton#btn_next{
+    border-image: url(:/icons/btn_next1.png);
+    background: transparent;
+}
+QPushButton#btn_next:hover{
+    border-image: url(:/icons/btn_next2.png);
+}
+QPushButton#btn_remove{
+    border-image: url(:/icons/remove1.png);
+    background: transparent;
+}
+QPushButton#btn_remove:hover{
+    border-image: url(:/icons/remove2.png);
+}
+QWidget#vWidget1{
+    background: #882424;
+    border-radius: 10px;
+}
+QLabel{
+    font-size: 30px;
+    color: #eeeeee;
+    font: blod;
+    background: transparent;
+}
+QProgressBar{
+    color: transparent;
+}
+QProgressBar::chunk{
+    background-color: #22eeee;
+    height: 8px;
+    margin: 0.5px;
+    border-radius: 0px;
+}
